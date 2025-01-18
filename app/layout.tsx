@@ -19,9 +19,9 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
     <ClerkProvider>
       <html lang="ja">
         <body cz-shortcut-listen="true" className="antialiased">
-          <header className="fixed top-0 left-0 w-full z-50 h-16 bg-neutral-100 flex items-center">
+          <header className="fixed top-0 left-0 w-full z-50 h-18 bg-gray-700 flex items-center justify-end">
             <SignedOut>
-              <div className="h-fit ml-4 bg-blue-500 w-fit p-2 rounded-md text-white text-sm font-semibold">
+              <div className="h-fit mr-16 bg-green-400 w-fit p-2 rounded-md text-gray-600 text-sm font-semibold">
                 <SignInButton />
               </div>
             </SignedOut>
